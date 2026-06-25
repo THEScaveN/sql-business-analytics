@@ -247,19 +247,6 @@ FROM CUST_DATA
 GROUP BY cust_data.total_revenue,cust_data.total_orders, cust_data.total_customers,cust_data.active_customers
 
  
-/*🏆 Boss Round — The Complete Business Intelligence Suite
-Combine MIS + Product Matrix + Funnel + RFM — the full BI package.
-+300 XP
-💬 CEO:
-"Aditya, I want THREE reports for the board meeting. Build all three."
-
-Report A: Monthly Revenue Trend — 12+ columns with LAG, running total, growth %, trend, best product per month.
-
-Report B: Customer Health — For each customer: RFM scores, CLV, segment label, revenue share, churn risk. 
-(Reuse your Day 15 query!)
-
-Report C: Product × City Matrix — For each product-city combination: revenue, units, share %. Show ONLY 
-combinations where revenue > 0. Sort by revenue DESC. Add product rank within each city.*/
 
 
 
